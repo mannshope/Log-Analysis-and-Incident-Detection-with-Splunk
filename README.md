@@ -22,7 +22,7 @@ I looked for the source IP responsible for the most failed logins to identify po
 
 **- SPL Query:** ```index="main" status="failed" | top src_ip ```
 
-**- Finding:** The IP **192.168.1.22** (and others) showed repeated failures, suggesting a targeted scan or brute-force attempt.
+**- Finding:** The IP **203.0.113.45** (and others) showed repeated failures, suggesting a targeted scan or brute-force attempt.
 
 ### 3. Most Frequent Username
 Identifying the most targeted account helps determine if an attacker is focused on a specific identity.
